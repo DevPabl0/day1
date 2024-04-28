@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+body{
+    background: #f5f8ff;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 0.5rem solid #fdf3f3;
+    box-shadow: 0 0 10px #cac9c9;
+    padding: 100px 40px 1px;
+    
+
+    background: #fdfcfc;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 400px;
+    z-index: 100;
+   
+}
+.container .name{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.container .triple{
+  flex: 1 1 33%;
+ 
+  margin-left: 10px;
+}
+.triple .price {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.triple .price span{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.one{
+    background: #edbbff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.two{
+    background: #aef1f5;
+    width: 100px;
+    height: 40px;
+    
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.three{
+    background: #ffddb6;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+
+}
+
+.blue{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background:  #aef1f5;
+    box-shadow: 0 0 10rem #aef1f5;
+    filter: blur(4rem);
+    bottom: 30rem;
+  left: 40rem;
+}
+
+.pink{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background:   #edbbff;
+    box-shadow: 0 0 10rem  #edbbff;
+  filter: blur(4rem);
+  top: 25rem;
+left: 20rem;
+   
+}
+
+.orange{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background:  #ffddb6;
+    box-shadow: 0 0 10rem  #ffddb6;
+     filter: blur(4rem);
+     right: 19rem;
+     top: 7rem;
+}
+button:hover{
+    transform: translateY(-2px);
+}
+
+
